@@ -1,0 +1,26 @@
+{
+  "name": "genpark-order-delivery-timeline-calculator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Calculate shipment destination delivery timelines.",
+  "author": "genpark",
+  "category": "logistics",
+  "tags": [
+    "shipping",
+    "timeline"
+  ],
+  "inputs": {
+    "origin_zip": {
+      "type": "string"
+    },
+    "dest_zip": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "days": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
